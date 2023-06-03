@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 8vh;
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    box-shadow: 1px -1px 5px 6px #dadadae6;
+}
+.name{
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    display: inline-flex;
+    width: 11vh;
+    justify-content: center;
+    text-align: center;
+    height: 4vh;
+    margin: 1vh 0vh 0vh 4vh;
+    font-family: 'Playfair', serif;
+
+}
+#name_nav{
+    width: 31vh;
+    display: inline-block;
+    height: 6vh;
+    margin-top: 1vh;
+}
+#name_details
+{
+    display: inline-block;
+    width: 51vh;
+    height: 6vh;
+    right: 7vh;
+    margin-top: 1vh;
+    position: absolute;
+    
+}
+#title_name{
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    margin: 1vh 0vh 0vh 2vh;
+    width: 27vh;
+    height: 4vh;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.9vh;
+    font-family: 'Playfair', serif;
+
+
+}
+#photo{
+    width: 100%;
+}
+.table_head
+{
+    display: grid;
+    grid-template-columns: 83vh 63vh;
+    margin: 9vh 0vh 0vh 21vh;
+    height: 94vh;
+    padding-top: 8vh;
+}
+#table_photo{
+    width: 76vh;
+    height: 81vh;
+    opacity: 0.74;
+    border-radius: 1vh;
+}
+#heading
+{
+    text-align: center;
+    font-size: 5vh;
+    letter-spacing: 1vh;
+}
+#heah{
+    text-align: center;
+    padding-top: 7vh;
+    font-size: 2vh;
+    letter-spacing: 1vh;
+}
+#para{
+    padding-top: 4vh;
+    font-size: 2.9vh;
+    line-height: 4vh;
+}
+.content_text{
+    font-family: 'Playfair', serif;
+}
+.lines{
+    width: 80%;
+    margin: 0 0 0 19vh;
+    color: grey;
+    opacity: 0.5;
+}
+#menu_head{
+    text-align: center;
+    font-size: 5vh;
+    letter-spacing: 1vh;
+}
+.dishes_name
+{
+    padding-top: 7vh;
+    font-size: 3vh;
+    letter-spacing: 1vh;
+}
+.dishes_des
+{
+    padding-top: 2vh;
+    /* letter-spacing: 0.4vh; */
+    font-size: 2vh;
+    color: grey;
+}
+#menu_photo
+{
+    height: 86vh;
+    width: 65vh;
+    opacity: 0.74;
+    border-radius: 1vh;
+}
+#contact_head
+{
+    margin-top: 14vh;
+    margin-left: 19vh;
+    width: 83%;
+    height:96vh ;
+}
+#contact_name
+{
+    font-size: 5vh;
+    letter-spacing: 1vh;
+    padding-bottom: 7vh;
+}
+#catering_info
+{
+    padding-top: 3vh;
+    color: #1d1d40db;
+    font-size: 2.6vh;
+    font-weight: bold;
+    padding-bottom: 2vh;
+}
+.details
+{
+    margin-top: 4vh;
+    width: 100%;
+    height: 7vh;
+    /* border-block-end-color: grey; */
+    border: none;
+    border-bottom: 0.1vh solid #8080807d;
+}
+#message
+{
+    margin-top: 4vh;
+    width: 22vh;
+    height: 5vh;
+    text-align: center;
+    background-color: #8080804a;
+    border: none;
+}
+#message:hover
+{
+    background-color:#8080807d ;
+}
+#footer_head
+{
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:#8080807d  ;
+
+}
+#footer_text
+{
+    margin-top: 7vh;
+}
+#title_name:hover
+{
+    background-color: #8080807d;
+}
+.name:hover{
+    background-color: #8080807d;
+}
